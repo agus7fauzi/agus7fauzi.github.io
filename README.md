@@ -1,5 +1,7 @@
 # ⚡️ My Great Personal Website ⚡️
 
+**Visit Website URL:** https://agus7fauzi.github.io
+
 ## Technologies that i used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
@@ -10,7 +12,7 @@
 
 ## Status
 
-** Build into build branch **
+_Build into build branch_
 
 ## License 📄
 
