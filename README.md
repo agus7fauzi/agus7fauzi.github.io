@@ -10,7 +10,7 @@
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/febf0b1b-754d-448f-b16b-c1474376f669/deploy-status)](https://app.netlify.com/sites/agus7fauzi/deploys)
+** Build into build branch **
 
 ## License 📄
 
