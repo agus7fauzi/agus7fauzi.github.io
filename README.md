@@ -1,4 +1,4 @@
-# ⚡️ My Great Personal Website ⚡️
+# 👱 My Great Personal Website 👱
 
 **Result of this source code is:** https://agus7fauzi.github.io
 
@@ -12,7 +12,7 @@
 
 ## Status
 
-_Build into "build" branch_
+_Build into "[build](https://github.com/agus7fauzi/agus7fauzi.github.io/tree/build)" branch_
 
 ## License 📄
 
