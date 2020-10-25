@@ -1,6 +1,6 @@
 # ⚡️ My Great Personal Website ⚡️
 
-**Visit Website URL:** https://agus7fauzi.github.io
+**Result of this source code is:** https://agus7fauzi.github.io
 
 ## Technologies that i used 🛠️
 
@@ -12,7 +12,7 @@
 
 ## Status
 
-_Build into build branch_
+_Build into "build" branch_
 
 ## License 📄
 
