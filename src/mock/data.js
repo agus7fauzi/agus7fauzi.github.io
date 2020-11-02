@@ -20,9 +20,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Saya seorang Full Stack Developer, yang bekerja Freelance full time.',
+  paragraphTwo:
+    'Skill yang saya kuasai adalah HTML, CSS, Javascript, PHP, Wordpress, NodeJS, MySQL, Adobe XD dan Adobe Photoshop.',
+  paragraphThree:
+    'Saya mampu membuat Blog Wordpress, Blog GatsbyJS, Personal Website, Company Profile dan Aplikasi-aplikasi Monolithic.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -65,7 +67,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/agus7fauzi/',
+      url: 'https://www.linkedin.com/in/agus7fauzi',
     },
     {
       id: nanoid(),
