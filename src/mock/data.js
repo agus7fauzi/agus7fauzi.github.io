@@ -25,7 +25,7 @@ export const aboutData = {
     'Skill yang saya kuasai adalah HTML, CSS, Javascript, PHP, Wordpress, NodeJS, MySQL, Adobe XD dan Adobe Photoshop.',
   paragraphThree:
     'Saya mampu membuat Blog Wordpress, Blog GatsbyJS, Personal Website, Company Profile dan Aplikasi-aplikasi Monolithic.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'Agus Imam Fauzi CV.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
