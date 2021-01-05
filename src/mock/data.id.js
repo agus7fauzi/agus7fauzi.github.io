@@ -2,29 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Agus Imam Fauzi | Junior Developer', // e.g: 'Name | Developer'
-  lang: 'id', // e.g: en, es, fr, jp
-  description: `Selamat datang di situs pribadi saya,
-saya adalah Junior Developer yang sedang belajar skill programming
-dan belajar menjadi pribadi yang cocok untuk seorang Developer.`, // e.g: Welcome to my website
+  title: 'Agus Imam Fauzi | Programmer',
+  lang: 'id',
+  description: `Selamat datang di situs portofolio saya,
+  saya adalah seorang Programmer.`,
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hai, Saya ',
   name: 'Agus Imam Fauzi',
-  subtitle: 'Seorang Junior Developer.',
+  subtitle: 'Seorang Programmer.',
   cta: 'Cari tahu',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Saya seorang Full Stack Developer, yang bekerja Freelance full time.',
-  paragraphTwo:
-    'Skill yang saya kuasai adalah HTML, CSS, Javascript, PHP, Wordpress, NodeJS, MySQL, Adobe XD dan Adobe Photoshop.',
-  paragraphThree:
-    'Saya mampu membuat Blog Wordpress, Blog GatsbyJS, Personal Website, Company Profile dan Aplikasi-aplikasi Monolithic.',
+  paragraphOne: 'Saya adalah seorang Programmer.',
+  paragraphTwo: 'Skill yang saya kuasai adalah HTML, CSS, Javascript, PHP, NodeJS dan MySQL.',
+  paragraphThree: `Selain basic di atas, saya juga terbiasa menggunakan Library dan Framework, seperti
+  CodeIgniter, ExpressJS, Bootstrap, ReactJS dan Material UI. Dan kadang saya menggunakan
+  ORM Sequelize untuk aplikasi NodeJS saya`,
   resume: 'Agus Imam Fauzi CV.pdf', // if no resume, the button will not show up
 };
 
@@ -56,13 +55,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/agus7fauzi',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: 'https://codepen.io/agus7fauzi',
+      name: 'github',
+      url: 'https://github.com/agus7fauzi',
     },
     {
       id: nanoid(),
@@ -71,13 +65,18 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/agus7fauzi',
+      name: 'codepen',
+      url: 'https://codepen.io/agus7fauzi',
+    },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://medium.com/@agus7fauzi',
+    },
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/agus7fauzi',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

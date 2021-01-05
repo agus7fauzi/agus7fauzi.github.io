@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    title: `Agus Imam Fauzi | Junior Developer`,
     siteUrl: `https://agus7fauzi.github.io`,
   },
   plugins: [
@@ -8,6 +9,18 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Agus Imam Fauzi Personal Website`,
+        short_name: `Agus Imam Fauzi`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#3159FD`,
+        display: `standalone`,
+        icon: 'src/images/favicon.png',
+      },
+    },
     {
       resolve: `gatsby-plugin-advanced-sitemap`,
       options: {
@@ -35,23 +48,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-i18n',
       options: {
-        name: `Agus Imam Fauzi Personal Website`,
-        short_name: `Agus Imam Fauzi`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#02aab0`,
-        display: `standalone`,
-        icon: 'src/images/favicon.png',
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: `${__dirname}/src/vectors/`,
-        },
+        langKeyForNull: 'any',
+        langKeyDefault: 'en',
+        useLangKeyLayout: false,
       },
     },
   ],

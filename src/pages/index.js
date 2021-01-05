@@ -1,22 +1,24 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
-import App from '../components/App';
-import { headData } from '../mock/data';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/main.scss';
+import { getUserLangKey } from 'ptz-i18n';
+import { withPrefix } from 'gatsby-link';
+import { navigate } from 'gatsby';
 
-export default () => {
-  const { title, lang, description } = headData;
+class RedirectIndex extends React.PureComponent {
+  constructor(args) {
+    super(args);
 
-  return (
-    <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title || 'Agus Imam Fauzi | Junior Developer'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Welcome to my Personal Site, and enjoy!'} />
-      </Helmet>
-      <App />
-    </>
-  );
-};
+    // Skip build, Browsers only
+    if (typeof window !== 'undefined') {
+      const langKey = getUserLangKey(['en', 'id'], 'en');
+      const homeUrl = withPrefix(`/${langKey}`);
+
+      navigate(homeUrl, { replace: true });
+    }
+  }
+
+  render() {
+    return <div />;
+  }
+}
+
+export default RedirectIndex;
