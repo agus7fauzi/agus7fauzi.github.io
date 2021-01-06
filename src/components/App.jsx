@@ -47,7 +47,7 @@ App.propTypes = {
   headData: PropTypes.object,
   heroData: PropTypes.object,
   aboutData: PropTypes.object,
-  projectsData: PropTypes.object,
+  projectsData: PropTypes.array,
   contactData: PropTypes.object,
   footerData: PropTypes.object,
 };

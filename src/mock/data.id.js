@@ -21,7 +21,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Saya adalah seorang Programmer.',
   paragraphTwo: 'Skill yang saya kuasai adalah HTML, CSS, Javascript, PHP, NodeJS dan MySQL.',
-  paragraphThree: `Selain basic di atas, saya juga terbiasa menggunakan Library dan Framework, seperti
+  paragraphThree: `Selain basic di atas, saya juga bisa menggunakan Library dan Framework, seperti
   CodeIgniter, ExpressJS, Bootstrap, ReactJS dan Material UI. Dan kadang saya menggunakan
   ORM Sequelize untuk aplikasi NodeJS saya`,
   resume: 'Daftar Riwayat Hidup Agus Imam Fauzi.pdf', // if no resume, the button will not show up
@@ -31,15 +31,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'donation-decision-project.jpg',
+    img: 'point-of-sales-project.png',
     title: 'Aplikasi Point of Sales',
-    info: `Aplikasi Decision Donation adalah aplikasi untuk
-    mengambil keputusan mengenai untuk siapakah dana Donasi
-    akan disalurkan. aplikasi ini berfungsi untuk mengambil
-    voting atau pendapat dari prespektif orang yang berbeda.`,
-    info2: '',
-    url: 'https://donation-decision.herokuapp.com/',
-    repo: 'https://github.com/agus7fauzi/donation-decision', // if no repo, the button will not show up
+    info: `Aplikasi POS biasa juga disebut dengan aplikasi kasir adalah aplikasi atau software yang digunakan
+    untuk mendukung transaksi langsung dengan penjual di berbagai toko retail yang memiliki banyak cabang.`,
+    info2: `Aplikasi ini saya buat dengan Teknologi, Library dan Framework ReactJS, Material UI, NodeJS, ExpressJS, GraphQL Language,
+    Apollo , MySQL, ORM Sequelize.`,
+    info3: 'Aplikasi Ini masih dalam tahap pengembangan!',
+    url: 'https://posix-pos.web.app',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 

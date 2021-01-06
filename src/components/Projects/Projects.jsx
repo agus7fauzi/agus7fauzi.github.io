@@ -7,7 +7,10 @@ import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
 const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+  const {
+    head: { lang },
+    projects,
+  } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,9 +29,9 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title={lang === `id` ? `Project` : `Projects`} />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, info3, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -45,6 +48,7 @@ const Projects = () => {
                       <div>
                         <p>{info}</p>
                         <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">{info3 || ''}</p>
                       </div>
                       <a
                         target="_blank"
@@ -52,7 +56,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        {lang === `id` ? `Lihat Demo` : `See Demo`}
                       </a>
 
                       {repo && (
