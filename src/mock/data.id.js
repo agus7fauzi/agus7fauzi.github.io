@@ -57,24 +57,20 @@ export const projectsData = [
     id: nanoid(),
     img: 'login-system-codeigniter3-project.png',
     title: 'Bookstore Management (PHP MVC)',
-    info: `Login di­sebut juga “logon” atau “sign in” adalah istilah dalam hal keamanan komputer, yakni berupa proses pintu masuk
-    bagi pengguna untuk mengakses sistem komputer. Login dimaksudkan untuk mengatur proses identifikasi.`,
-    info2: `Fitur: Login & Registrasi, User Access Level,
-    Menu Management, User Management, User Activation dan Forgot Password`,
-    info3: `Login Admin: Email: admin@gmail.com, Password: admin. Login User: Email: user@gmail.com, Password: user`,
+    info: `Software Toko Buku adalah perangkat lunak komputer yang didesain untuk keperluan mengolah data buku di toko buku serta toko-toko lain yang sejenis dengan itu.`,
+    info2: `Dibuat dengan PHP Native/ Core menggunakan konsep arsitektur MVC. Aplikasi ini mempunyai fitur: Create, Read, Update dan Delete data-data buku.`,
+    info3: ``,
     url: 'http://agus7fauzi-live.my.id/php-mvc/public/',
-    repo: 'https://github.com/agus7fauzi/login-system-codeigniter3', // if no repo, the button will not show up
+    repo: 'https://github.com/agus7fauzi/php-mvc', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'login-system-codeigniter3-project.png',
     title: 'Bookstore Management (PHP Procedural)',
-    info: `Login di­sebut juga “logon” atau “sign in” adalah istilah dalam hal keamanan komputer, yakni berupa proses pintu masuk
-    bagi pengguna untuk mengakses sistem komputer. Login dimaksudkan untuk mengatur proses identifikasi.`,
-    info2: `Fitur: Login & Registrasi, User Access Level,
-    Menu Management, User Management, User Activation dan Forgot Password`,
-    info3: `Login Admin: Email: admin@gmail.com, Password: admin. Login User: Email: user@gmail.com, Password: user`,
-    url: 'http://agus7fauzi-live.my.id/login-system-codeigniter3',
+    info: `Aplikasi ini sama seperti aplikasi diatas, hanya berbeda pada paradigmanya.`,
+    info2: `Dibuat dengan PHP Native/ Core menggunakan paradigma Prosedural. Aplikasi ini mempunyai fitur: Login & Registrasi serta Remember me, Create, Read, Update dan Delete data-data buku`,
+    info3: `Login Admin: Username: admin, Password: admin.`,
+    url: 'http://agus7fauzi-live.my.id/php-procedural1',
     repo: 'https://github.com/agus7fauzi/login-system-codeigniter3', // if no repo, the button will not show up
   },
 ];
