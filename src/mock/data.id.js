@@ -20,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Saya adalah seorang Programmer.',
-  paragraphTwo: 'Skill yang saya kuasai adalah HTML, CSS, Javascript, PHP, NodeJS dan MySQL.',
+  paragraphTwo: 'Skill saya adalah HTML, CSS, Javascript, PHP, NodeJS dan SQL.',
   paragraphThree: `Selain basic di atas, saya juga bisa menggunakan Library dan Framework, seperti
   CodeIgniter, ExpressJS, Bootstrap, ReactJS dan Material UI. Dan kadang saya menggunakan
   ORM Sequelize untuk aplikasi NodeJS saya`,
@@ -32,14 +32,50 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'point-of-sales-project.png',
-    title: 'Aplikasi Point of Sales',
+    title: 'Aplikasi Point of Sales (Dalam Pengembangan)',
     info: `Aplikasi POS biasa juga disebut dengan aplikasi kasir adalah aplikasi atau software yang digunakan
     untuk mendukung transaksi langsung dengan penjual di berbagai toko retail yang memiliki banyak cabang.`,
     info2: `Aplikasi ini saya buat dengan Teknologi, Library dan Framework ReactJS, Material UI, NodeJS, ExpressJS, GraphQL Language,
     Apollo , MySQL, ORM Sequelize.`,
-    info3: 'Aplikasi Ini masih dalam tahap pengembangan!',
+    info3: 'Login dengan Email: admin@gmail.com, Password: admin',
     url: 'https://posix-pos.web.app',
     repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'login-system-codeigniter3-project.png',
+    title: 'Login Sytem CodeIgniter 3 (Dashboard)',
+    info: `Login di­sebut juga “logon” atau “sign in” adalah istilah dalam hal keamanan komputer, yakni berupa proses pintu masuk
+    bagi pengguna untuk mengakses sistem komputer. Login dimaksudkan untuk mengatur proses identifikasi.`,
+    info2: `Fitur: Login & Registrasi, User Access Level,
+    Menu Management, User Management, User Activation dan Forgot Password`,
+    info3: `Login Admin: Email: admin@gmail.com, Password: admin. Login User: Email: user@gmail.com, Password: user`,
+    url: 'http://agus7fauzi-live.my.id/login-system-codeigniter3',
+    repo: 'https://github.com/agus7fauzi/login-system-codeigniter3', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'login-system-codeigniter3-project.png',
+    title: 'Bookstore Management (PHP MVC)',
+    info: `Login di­sebut juga “logon” atau “sign in” adalah istilah dalam hal keamanan komputer, yakni berupa proses pintu masuk
+    bagi pengguna untuk mengakses sistem komputer. Login dimaksudkan untuk mengatur proses identifikasi.`,
+    info2: `Fitur: Login & Registrasi, User Access Level,
+    Menu Management, User Management, User Activation dan Forgot Password`,
+    info3: `Login Admin: Email: admin@gmail.com, Password: admin. Login User: Email: user@gmail.com, Password: user`,
+    url: 'http://agus7fauzi-live.my.id/php-mvc/public/',
+    repo: 'https://github.com/agus7fauzi/login-system-codeigniter3', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'login-system-codeigniter3-project.png',
+    title: 'Bookstore Management (PHP Procedural)',
+    info: `Login di­sebut juga “logon” atau “sign in” adalah istilah dalam hal keamanan komputer, yakni berupa proses pintu masuk
+    bagi pengguna untuk mengakses sistem komputer. Login dimaksudkan untuk mengatur proses identifikasi.`,
+    info2: `Fitur: Login & Registrasi, User Access Level,
+    Menu Management, User Management, User Activation dan Forgot Password`,
+    info3: `Login Admin: Email: admin@gmail.com, Password: admin. Login User: Email: user@gmail.com, Password: user`,
+    url: 'http://agus7fauzi-live.my.id/login-system-codeigniter3',
+    repo: 'https://github.com/agus7fauzi/login-system-codeigniter3', // if no repo, the button will not show up
   },
 ];
 
