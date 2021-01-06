@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphThree: `Selain basic di atas, saya juga terbiasa menggunakan Library dan Framework, seperti
   CodeIgniter, ExpressJS, Bootstrap, ReactJS dan Material UI. Dan kadang saya menggunakan
   ORM Sequelize untuk aplikasi NodeJS saya`,
-  resume: 'id/Daftar Riwayat Hidup Agus Imam Fauzi.pdf', // if no resume, the button will not show up
+  resume: 'Daftar Riwayat Hidup Agus Imam Fauzi.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
