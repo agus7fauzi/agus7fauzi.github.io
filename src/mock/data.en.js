@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: 'The skills I master are HTML, CSS, Javascript, PHP, NodeJS and MySQL.',
   paragraphThree:
     'I am able to create Dasboard Full Fitur, Invoice System App, Gallery and others, Wesites likes Personal Website, Company Profile Website and others.',
-  resume: 'Agus Imam Fauzi CV.pdf', // if no resume, the button will not show up
+  resume: 'Agus Imam Fauzi Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
