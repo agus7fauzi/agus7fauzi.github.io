@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'donation-decision-project.jpg',
-    title: 'Donation Decision',
+    title: 'Aplikasi Point of Sales',
     info: `Aplikasi Decision Donation adalah aplikasi untuk
     mengambil keputusan mengenai untuk siapakah dana Donasi
     akan disalurkan. aplikasi ini berfungsi untuk mengambil
