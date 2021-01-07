@@ -5,24 +5,25 @@ export const headData = {
   title: 'Agus Imam Fauzi | Programmer',
   lang: 'en',
   description: `Welcome to my portfolio website,
-  i am a Programmer.`,
+  i'am is a Programmer.`,
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hai, my name is ',
   name: 'Agus Imam Fauzi',
-  subtitle: "I'm the Programmer",
+  subtitle: "I'm a Programmer",
   cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a Programmer, working freelance full time.',
-  paragraphTwo: 'The skills I master are HTML, CSS, Javascript, PHP, NodeJS and MySQL.',
-  paragraphThree:
-    'I am able to create Dasboard Full Fitur, Invoice System App, Gallery and others, Wesites likes Personal Website, Company Profile Website and others.',
+  paragraphOne: 'I am a Programmer.',
+  paragraphTwo: 'My skills are HTML, CSS, Javascript, PHP, NodeJS and SQL.',
+  paragraphThree: `Besides the basics above, I can also use libraries and frameworks, such as
+    CodeIgniter, ExpressJS, Bootstrap, ReactJS and Material UI. And sometimes I use
+    ORM Sequelize for my NodeJS application.`,
   resume: 'Agus Imam Fauzi Resume.pdf', // if no resume, the button will not show up
 };
 
@@ -30,15 +31,37 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'donation-decision-project.jpg',
-    title: 'Donation Decision',
-    info: `The Decision Donation application is an application for
-    make decisions about who the Donation funds are for
-    will be funneled. this application serves to take
-    voting or opinions from different people's perspectives.`,
-    info2: '',
-    url: 'https://donation-decision.herokuapp.com/',
-    repo: 'https://github.com/agus7fauzi/donation-decision', // if no repo, the button will not show up
+    img: 'point-of-sales-project.png',
+    title: 'Point of Sales Application (Under Development)',
+    info: `The POS application, also known as a cashier application, is the application or software used
+    to support direct transactions with sellers in various retail stores that have many branches.`,
+    info2: `I made this application with ReactJS Technology, Library and Framework, Material UI, NodeJS, ExpressJS, GraphQL Language,
+    Apollo, MySQL, ORM Sequelize.`,
+    info3: 'Login with Email: admin@gmail.com, Password: admin',
+    url: 'https://posix-pos.web.app',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'login-system-codeigniter3-project.png',
+    title: 'Login System CodeIgniter 3 (Dashboard)',
+    info: `Login is also called" logon "or" sign in "is a term in terms of computer security, which is a process of entry
+    for users to access the computer system. Login is intended to manage the identification process.`,
+    info2: ` Features: Login & Registration, User Access Level,
+    Menu Management, User Management, User Activation and Forgot Password.`,
+    info3: `Admin Login: Email: admin@gmail.com, Password: admin. User Login: Email: user@gmail.com, Password: user.`,
+    url: 'http://agus7fauzi-live.my.id/login-system-codeigniter3',
+    repo: 'https://github.com/agus7fauzi/login-system-codeigniter3', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'php-procedural-project.png',
+    title: 'Bookstore Management (PHP Native Procedural)',
+    info: `Bookstore Software is computer software designed for the purposes of processing book data in bookstores and other stores similar to it.`,
+    info2: `Made with PHP Native / Core using the Procedural paradigm. This application has features: Login & Registration as well as Remember me, Create, Read, Update and Delete book data.`,
+    info3: `Login Admin: Username: admin, Password: admin`,
+    url: 'https://agus7fauzi-live.my.id/php-procedural-rev',
+    repo: 'https://github.com/agus7fauzi/php-procedural', // if no repo, the button will not show up'
   },
 ];
 
