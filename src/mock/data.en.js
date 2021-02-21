@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphOne: 'I am a Programmer.',
   paragraphTwo: 'My skills are HTML, CSS, Javascript, PHP, NodeJS and SQL.',
   paragraphThree: `Besides the basics above, I can also use libraries and frameworks, such as
-    CodeIgniter, ExpressJS, Bootstrap, ReactJS and Material UI. And sometimes I use
+    Laravel, ExpressJS, ReactJS, Bootstrap and Material UI. And sometimes I use
     ORM Sequelize for my NodeJS application.`,
   resume: 'Agus Imam Fauzi Resume.pdf', // if no resume, the button will not show up
 };
