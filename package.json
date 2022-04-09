@@ -1,12 +1,12 @@
 {
   "name": "personal-site",
   "private": true,
-  "description": "A Personal Site own by Agus Imam Fauzi, the Junior Developer.",
+  "description": "A Personal Site own by Agus Imam Fauzi, the Full Stack Developer.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b build",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
