@@ -12,7 +12,7 @@
 
 ## Status
 
-_Build into "[build](https://github.com/agus7fauzi/agus7fauzi.github.io/tree/build)" branch_
+_Build into "[gh-pages](https://github.com/agus7fauzi/agus7fauzi.github.io/tree/gh-pages)" branch_
 
 ## License 📄
 
