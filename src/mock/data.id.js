@@ -5,24 +5,24 @@ export const headData = {
   title: 'Agus Imam Fauzi | Programmer',
   lang: 'id',
   description: `Selamat datang di situs portofolio saya,
-  saya adalah seorang Programmer.`,
+  saya adalah seorang Full Stack Developer.`,
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hai, Saya ',
   name: 'Agus Imam Fauzi',
-  subtitle: 'Seorang Programmer.',
+  subtitle: 'Seorang Full Stack Developer.',
   cta: 'Cari tahu',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Saya adalah seorang Programmer.',
-  paragraphTwo: 'Skill saya adalah HTML, CSS, Javascript, PHP, NodeJS dan SQL.',
-  paragraphThree: `Selain basic di atas, saya juga bisa menggunakan Library dan Framework, seperti
-  Laravel, ExpressJS, ReactJS, Bootstrap dan Material UI. Dan kadang saya menggunakan
+  paragraphOne: 'Saya adalah seorang Full Stack Developer.',
+  paragraphTwo: 'Skill saya adalah HTML, CSS, Javascript, Golang, NodeJS, PHP, NoSQL (MongoDB), SQL dan Docker.',
+  paragraphThree: `Selain basic di atas, saya juga biasa menggunakan Library dan Framework, seperti
+  Micro (Microservices Platform), ExpressJS, Laravel, ReactJS, Bootstrap dan Material UI. Dan kadang saya menggunakan
   ORM Sequelize untuk aplikasi NodeJS saya.`,
   resume: 'Daftar Riwayat Hidup Agus Imam Fauzi.pdf', // if no resume, the button will not show up
 };
