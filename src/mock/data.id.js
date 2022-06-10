@@ -20,9 +20,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Saya adalah seorang Full Stack Developer.',
-  paragraphTwo: 'Skill saya adalah HTML, CSS, Javascript, Golang, NodeJS, PHP, NoSQL (MongoDB), SQL dan Docker.',
+  paragraphTwo:
+    'Skill saya adalah HTML, CSS, Javascript, Golang, NodeJS, PHP, NoSQL (MongoDB), SQL dan Docker.',
   paragraphThree: `Selain basic di atas, saya juga biasa menggunakan Library dan Framework, seperti
-  Micro (Microservices Platform), ExpressJS, Laravel, ReactJS, Bootstrap dan Material UI. Dan kadang saya menggunakan
+  Micro (Microservices Platform), ExpressJS, Laravel / Lumen, ReactJS, Bootstrap dan Material UI. Dan kadang saya menggunakan
   ORM Sequelize untuk aplikasi NodeJS saya.`,
   resume: 'Daftar Riwayat Hidup Agus Imam Fauzi.pdf', // if no resume, the button will not show up
 };
