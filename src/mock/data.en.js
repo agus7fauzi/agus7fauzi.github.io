@@ -5,21 +5,21 @@ export const headData = {
   title: 'Agus Imam Fauzi | Programmer',
   lang: 'en',
   description: `Welcome to my portfolio website,
-  i'am is a Full Stack Developer.`,
+  i'am is a Software Engineer.`,
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hai, my name is ',
   name: 'Agus Imam Fauzi',
-  subtitle: "I'm a Full Stack Developer",
+  subtitle: "I'm a Software Engineer",
   cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a Full Stack Developer.',
+  paragraphOne: 'I am a Software Engineer.',
   paragraphTwo:
     'My skills are HTML, CSS, Javascript, Golang, NodeJS, PHP, NoSQL (MongoDB), SQL and Docker.',
   paragraphThree: `Besides the basics above, I also usually use Libraries and Frameworks, such as
